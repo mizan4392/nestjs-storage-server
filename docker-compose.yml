@@ -3,7 +3,7 @@ version: '3.9'
 services:
   api:
     build: .
-    container_name: nest_storage_api
+    container_name: nest_storage
     restart: unless-stopped
     ports:
       - '9000:3000'
